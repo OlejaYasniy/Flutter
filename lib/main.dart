@@ -1,4 +1,10 @@
 import 'package:flutter/material.dart';
+import 'home_screen.dart';
+import 'assignments_screen.dart';
+import 'schedule_screen.dart';
+import 'grades_screen.dart';
+import 'settings_screen.dart';
+
 
 void main() => runApp(const MyApp());
 
@@ -58,35 +64,8 @@ class _MainScreenState extends State<MainScreen> {
   }
 }
 
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
-  @override
-  Widget build(BuildContext context) => const Center(child: Text('Добро пожаловать!', style: TextStyle(fontSize: 18)));
-}
 
-class AssignmentsScreen extends StatelessWidget {
-  const AssignmentsScreen({super.key});
-  @override
-  Widget build(BuildContext context) => const Center(child: Text('Ваши задания', style: TextStyle(fontSize: 18)));
-}
 
-class ScheduleScreen extends StatelessWidget {
-  const ScheduleScreen({super.key});
-  @override
-  Widget build(BuildContext context) => const Center(child: Text('Расписание', style: TextStyle(fontSize: 18)));
-}
-
-class GradesScreen extends StatelessWidget {
-  const GradesScreen({super.key});
-  @override
-  Widget build(BuildContext context) => const Center(child: Text('Оценки', style: TextStyle(fontSize: 18)));
-}
-
-class SettingsScreen extends StatelessWidget {
-  const SettingsScreen({super.key});
-  @override
-  Widget build(BuildContext context) => const Center(child: Text('Настройки', style: TextStyle(fontSize: 18)));
-}
 /*   Text(
               'Гришанович Олег Андреевич \n ИКБО-11-22 \n 22И0802',
               key: const ValueKey('studentInfo'),
